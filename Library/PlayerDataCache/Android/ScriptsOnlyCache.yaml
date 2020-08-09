@@ -8,8 +8,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -54,21 +52,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12104}
     - Class: 114
-      Script: {instanceID: 12812}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 13570}
+      Script: {instanceID: 13244}
     - Class: 114
-      Script: {instanceID: 13592}
+      Script: {instanceID: 13572}
     - Class: 114
-      Script: {instanceID: 13908}
+      Script: {instanceID: 13594}
     - Class: 114
-      Script: {instanceID: 14408}
+      Script: {instanceID: 13910}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 14410}
     - Class: 114
-      Script: {instanceID: 19368}
+      Script: {instanceID: 15044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -158,6 +156,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StableAspect
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
@@ -590,12 +594,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StableAspect
   platform: 13
   scenePathNames:
   - Assets/Scenes/GameScenes.unity
